@@ -13,6 +13,7 @@
 		BF6616EC260B84F900A3CB21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6616EA260B84F900A3CB21 /* Main.storyboard */; };
 		BF6616EE260B84FB00A3CB21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6616ED260B84FB00A3CB21 /* Assets.xcassets */; };
 		BF6616F1260B84FB00A3CB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6616EF260B84FB00A3CB21 /* LaunchScreen.storyboard */; };
+		BF6616FB260B8DC300A3CB21 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6616FA260B8DC300A3CB21 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF6616ED260B84FB00A3CB21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6616F0260B84FB00A3CB21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6616F2260B84FB00A3CB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6616FA260B8DC300A3CB21 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				BF6616E4260B84F900A3CB21 /* AppDelegate.swift */,
 				BF6616E6260B84F900A3CB21 /* SceneDelegate.swift */,
 				BF6616E8260B84F900A3CB21 /* ViewController.swift */,
+				BF6616FA260B8DC300A3CB21 /* Game.swift */,
 				BF6616EA260B84F900A3CB21 /* Main.storyboard */,
 				BF6616ED260B84FB00A3CB21 /* Assets.xcassets */,
 				BF6616EF260B84FB00A3CB21 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				BF6616E9260B84F900A3CB21 /* ViewController.swift in Sources */,
 				BF6616E5260B84F900A3CB21 /* AppDelegate.swift in Sources */,
 				BF6616E7260B84F900A3CB21 /* SceneDelegate.swift in Sources */,
+				BF6616FB260B8DC300A3CB21 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "appDev.Tairi-ApplePie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "appDev.Tairi-ApplePie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
